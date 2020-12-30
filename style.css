@@ -198,12 +198,14 @@ nav {
 }
 .contact{
     width: 100%;
-    height: 60vh;
+    height: 63vh;
     background: linear-gradient(to right ,#FF4700,#B0756E);
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 30px;
+  
 }
+
 .contact div h2{
     color:#fff;
     font-family: 'Poppins', sans-serif;
@@ -217,4 +219,9 @@ nav {
 }
 .contact_us .socials i{
     color: #fff;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #333333;
 }
