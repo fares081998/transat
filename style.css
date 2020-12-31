@@ -68,6 +68,10 @@ nav {
   left: 0;
  
 }
+.container img{
+  
+    margin-top: 50px;
+}
 .info_holder{
     flex-direction: column;
     width: 100%;
