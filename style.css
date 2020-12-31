@@ -8,6 +8,7 @@ nav {
   height: 100px;
   display: grid;
   grid-template-columns: 1fr 0.3fr;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.178);
 }
 .left_nav {
   display: flex;
