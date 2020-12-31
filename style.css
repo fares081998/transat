@@ -74,6 +74,12 @@ nav {
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
 }
+.img2{
+    position: absolute;
+   left: 75%;
+   top: 65%;
+    width: 250px ;
+}
 .btn {
   width: 180px;
   height: 50px;
@@ -106,10 +112,11 @@ color: #ff4700;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  position: relative;
 }
 
 
-.main img {
+.img1  {
     height: 100%;
   width: 100%;
   transition: .8s ease;
