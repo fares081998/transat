@@ -75,16 +75,18 @@ nav {
   text-transform: capitalize;
 }
 .img2{
+    transition: .9s ease;
     position: absolute;
    left: 75%;
-   top: 65%;
+   top: 100%;
     width: 250px ;
 }
 .img3{
     position: absolute;
    left: 80%;
-   top: 2%;
+   top: -50%;
     width: 250px ;
+    transition: .9s ease;
 }
 .btn {
   width: 180px;
