@@ -99,19 +99,25 @@ color: #ff4700;
 .main {
   width: 100%;
   height: 65vh;
-
   display: grid;
   grid-template-columns: 0.5fr 1fr;
   padding: 50px 20px;
   background: linear-gradient(to right, #ff4700, #e97242);
+  overflow: hidden;
 }
+
+
 .main img {
   width: 100%;
+  transition: .8s ease;
+  transform: translateX(-100%);
 }
 .main_infos {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+  transition: .8s ease;
+  transform: translateX(160%);
 }
 .main_infos p {
   color: #fff;
@@ -122,6 +128,7 @@ color: #ff4700;
 
 /* services section */
 .services{
+    overflow: hidden;
     height: 100vh;
     width: 100%;
    background: url("texture.jpg");
@@ -187,7 +194,8 @@ color: #ff4700;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    transition: .3s ease;
+    transition: .8s ease;
+    transform: translateY(160%);
 
 }
 .service:hover{
@@ -249,4 +257,12 @@ footer h2{
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+}
+
+/* animations */
+.animate{
+    transform: translateX(0) !important;
+}
+.animate2{
+    transform: translateY(0) !important;
 }
