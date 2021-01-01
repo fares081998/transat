@@ -54,7 +54,6 @@ nav {
   background:url("texture2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .about_section {
   position: relative;
@@ -120,6 +119,9 @@ nav {
 .btn:hover{
 background-color: #fff;
 color: #ff4700;
+}
+.btn:hover::after{
+animation: none;
 }
 .btn::after{
 content: '';
@@ -323,6 +325,7 @@ footer h2{
 }
 .fix{
     position: fixed;
+    top: 0;
     z-index: 10;
     transform-origin: top;
     transform: scaleY(1) !important;
